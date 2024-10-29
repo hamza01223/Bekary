@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+.bakery-home{
+    background-image: url(../img/drew-coffman-1872.jpg);
+    width: 100%;
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    align-items: center;
+}
+.bakery-home .container{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+  justify-content: space-between;
+ margin: auto;
+  
+}
+.bakery-logo{
+   
+    width: 15%;
+    padding-left: 60px;
+    
+}
+.bakery-logo img{
+    width: 80%;
+    padding: 30px;
+}
+.bakery-content{
+    
+    width: fit-content;
+    padding: 30px;
+}
+.bakery-content li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+   
+}
+
+.bakery-content li a{
+    text-decoration: none;
+    color: white;
+}
+.bakery-home{
+text-align: center;
+color: white;
+line-height: 1.5cm;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bakery-home .container{
+
+}
+.bakery-home .container .home-content{
+
+}
+.bakery-home .container .home-content h3{
+font-size: 30px;
+}
+.bakery-home .container .home-content h1{
+font-size: 50px;
+}
+.bakery-home .container .home-content p{
+color: rgb(250, 235, 215);
+font-size: 20px;
+padding-top: 30px;
+
+}
+.home-buttons{
+    padding: 40px;
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+
+}
+.bakery-home .container .home-content .home-button-1{
+width: 100px;
+height: 60px;
+border-radius: 10px;
+background-color: rgb(249, 212, 167);
+font-size: 15px;
+border: none;
+
+}
+.bakery-home .container .home-content .home-button-2{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    
+    
+    
+    
+    font-size: 15px;
+}
+.who-we-are{
+
+}
+.who-we-are .container{
+
+}
+
+.who-we-are .container .who-we-are-content{
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.8rem;
+
+}
+.who-we-are .container .who-we-are-content .who-we-are-img{
+width: 50%;
+}
+.who-we-are .container .who-we-are-content .who-we-are-img img{
+width: 70%;
+padding: 50px 50px;
+border-radius: 20px;
+
+}
+.who-we-are .container .who-we-are-content .who-we-are-text{
+padding: 50px;
+}
+.who-we-are .container .who-we-are-content .who-we-are-text h3{
+text-align: center;
+padding-bottom: 20px;
+font-size: 40px;
+}
+.who-we-are .container .who-we-are-content .who-we-are-text p{
+text-align: center;
+padding-bottom: 20px;
+font-size: 19px;
+}
+.who-we-are .container .who-we-are-content .who-we-are-text ul{
+padding-left:30px ;
+
+
+}
+.who-we-are .container .who-we-are-content .who-we-are-text ul li{
+font-size: 19px;
+
+}
+.Our-Location{
+padding-top: 30px;
+}
+.Our-Location .container{
+
+}
+.Our-Location .container .Our-Location-content{
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.8rem;
+}
+.Our-Location .container .Our-Location-content .Our-Location-img{
+width: 50%;
+}
+.Our-Location .container .Our-Location-content .Our-Location-img img{
+width: 88%;
+padding: 50px 50px;
+border-radius: 20px;
+
+}
+.Our-Location .container .Our-Location-content .Our-Location-text{
+padding-left: 40px;
+}
+.Our-Location .container .Our-Location-content .Our-Location-text h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.Our-Location .container .Our-Location-content .Our-Location-text p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 19px;
+    line-height: 1.8rem;
+}
+.Our-Baking{
+
+}
+.Our-Baking .container{
+
+}
+.Our-Baking .container .Our-Baking-content{
+
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-head{
+text-align: center;
+
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-head h3{
+padding-bottom: 30px;
+padding-top: 30px;
+font-size: 40px;
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-head p{
+padding-bottom: 30px;
+line-height: 1.8rem;
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-items{
+display: flex;
+justify-content: space-between;
+padding-bottom: 30px;
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-items .Our-Baking-item{
+width: 30%;
+background-color: rgb(248, 227, 212);
+text-align: center;
+padding-bottom: 20px;
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-items .Our-Baking-item img{
+width: 100%;
+border-radius: 20px;
+
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-items .Our-Baking-item h3{
+padding-bottom: 20px;
+padding-top: 10px;
+font-size: 25px;
+font-weight: bold;
+}
+.Our-Baking .container .Our-Baking-content .Our-Baking-items .Our-Baking-item p{
+font-weight: bold;
+line-height: 1.8rem;
+}
+.Contact-Information-items{
+display: flex;
+justify-content: space-between;
+padding-top:30px ;
+justify-content: center;
+} 
+.Contact-Information-items .Contact-Information-item{
+text-align: center;
+margin: auto;
+}
+.Contact-Information-items .Contact-Information-item h3{
+font-size: 30px;
+padding-bottom: 20px;
+}
+.Contact-Information-items .Contact-Information-item p{
+font-size: 20px;
+padding-bottom: 20px;
+line-height: 1.8rem;
+}
+.Contact-Information-items .Contact-Information-item ul{
+text-align: center;
+align-items: center;
+}
+.Contact-Information-items .Contact-Information-item ul li{
+font-size: 20px;
+list-style: inside;
+text-align: center;
+padding-bottom: 20px;
+}
+.Contact-Information-items .Contact-Information-img{
+width: 50%;
+margin: auto;
+}
+.Contact-Information-items .Contact-Information-img img{
+width: 100%;
+border-radius: 20px;
+}
+.about-us-items{
+display: flex;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+.about-us-items .about-us-item{
+width: 50%;
+text-align: center;
+}
+.about-us-items .about-us-item h3{
+font-size: 30px;
+padding-bottom: 20px;
+}
+.about-us-items .about-us-item p{
+line-height: 1.8rem;
+font-size: 20px;
+}
+.about-us-items .about-us-item-ul{
+width: 50%;
+padding-left: 200px;
+text-align: center;
+}
+.about-us-items .about-us-item-ul h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.about-us-items .about-us-item-ul ul{
+display: inline-block;
+
+}
+.about-us-items .about-us-item-ul ul li{
+padding-bottom: 10px;
+font-size: 20px;
+}
+footer{
+    text-align: center;
+    background-color: cadetblue;
+}
+footer p{
+    font-size: 20px;
+}
